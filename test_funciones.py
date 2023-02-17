@@ -7,3 +7,4 @@ def test_primo():
     assert primo(5) == True
     assert primo(7) == True
     assert primo(9) == False
+    assert primo(10) == False
