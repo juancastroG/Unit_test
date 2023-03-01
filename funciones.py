@@ -6,3 +6,8 @@ def primo(x):
         if x % i == 0:
             return False
     return True
+def menorlista(lista):
+    minimo = lista[0]
+    for i in lista:
+        if i < minimo:
+            minimo = i
